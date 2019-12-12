@@ -1,11 +1,12 @@
 package com.DataAL;
 
+import com.BusinessAL.CredentialVal;
 import com.PresentationL.MenuUI;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.Optional;
 
 import javax.swing.JOptionPane;
 
@@ -25,7 +26,41 @@ public class CredantialsDAL {
          }
 	}
     // Region Check user Exist
-    public void getAuthentication(String userID, String password) {
-	}
+    public CredentialVal getAuthentication(Optional<String> userID, Optional<String> password) {
+
+
+        String select ="Select type from login_tabl where username=? and password=?";
+        try {
+
+            PreparedStatement pst =conn.prepareStatement(select);
+            pst.setString(1, userID.get());
+            pst.setString(2, password.get());
+            ResultSet rs = pst.executeQuery();
+
+            if(rs.next()){
+                String name = rs.getString("type");
+
+                if (name.equals("administration")) {
+
+                    JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.INFORMATION_MESSAGE);
+                    MenuUI admin = new MenuUI();
+                    admin.setVisible(true);
+                }
+                else if (name.equals("MANAGER")){
+                    JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.INFORMATION_MESSAGE);
+
+                }
+                //conn.close();
+            }
+            else {
+                JOptionPane.showMessageDialog(null, "Access Denied");
+            }
+        }
+        catch (Exception ex){
+            JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.ERROR_MESSAGE);
+        }
+
+        return null;
+    }
   
 }
