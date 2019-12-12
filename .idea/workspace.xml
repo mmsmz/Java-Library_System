@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8220d9f5-4feb-4ef7-83cf-a2cd2f75be7a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UnW1E4jWu7spsnOIwrFPvsDmhq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.1.48-bin.jar!/" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="loginUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.PresentationL.loginUI" />
+      <module name="LibrarySystemJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.PresentationL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.loginUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8220d9f5-4feb-4ef7-83cf-a2cd2f75be7a" name="Default Changelist" comment="" />
+      <created>1575992624791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575992624791</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#Project_Structure" timestamp="1576091344002">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Project_Structure/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576091344002" />
+    <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1576008650135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576008650135" />
+    <state x="513" y="80" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1575995071999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="80" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1575995071999" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576018350384">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576018350384" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1575995067686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1575995067686" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576095886313">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886313" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576095886313">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886313" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576095886313">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886313" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576095886313">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886313" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576095886314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886314" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1576095886314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886314" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1576095886314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886314" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1576095886314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576095886314" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1576091432196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576091432196" />
+    <state x="0" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1576173243748">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="382" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576173243748" />
+    <state x="390" y="5" width="586" height="717" key="find.popup" timestamp="1576091518034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="5" width="586" height="717" key="find.popup/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576091518034" />
+    <state x="65" y="0" key="new project wizard" timestamp="1576000049319">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576000049319" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1576009351457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576009351457" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LibrarySystemJAVA$loginUI.ic" NAME="loginUI Coverage Results" MODIFIED="1576010955638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.PresentationL.*</FILTER>
+    </SUITE>
+  </component>
+</project>
