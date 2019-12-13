@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa83125c-6841-4c41-bc9e-c991550b365b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library_System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BusinessAL/CredentialVal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/META-INF/LibrarySystemJAVA.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/com/BusinessAL/CredentialBAL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/com/DataAL/CredantialsDAL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/com/DataAL/DBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/com/PresentationL/MenuUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/com/PresentationL/loginUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/com/PresentationL/loginUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibrarySystemJAVA/com/PresentationL/loginUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BusinessAL/CredentialBAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BusinessAL/CredentialBAL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DataAL/CredantialsDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataAL/CredantialsDAL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DataAL/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataAL/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PresentationL/loginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PresentationL/loginUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,47 +92,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576174779798" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576183476348">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576183476348" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576183476348">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576183476348" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576183476348">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576183476348" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576183476348">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576183476348" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576184587061">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576184587061" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1576184587060">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576184587060" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1576184587060">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576184587060" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1576184587060">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1576185096282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576184587060" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576185096282" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1576257753260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-312.1536.824@0.0.1366.728" timestamp="1576257753260" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/PresentationL/loginUI.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/DataAL/CredantialsDAL.java</url>
           <line>34</line>
