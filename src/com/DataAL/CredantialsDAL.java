@@ -26,7 +26,7 @@ public class CredantialsDAL {
          }
 	}
     // Region Check user Exist
-    public CredentialVal getAuthentication(Optional<String> userID, Optional<String> password) {
+    public void getAuthentication(Optional<String> userID, Optional<String> password) {
 
 
         String select ="Select type from login_tabl where username=? and password=?";
@@ -39,12 +39,14 @@ public class CredantialsDAL {
 
             if(rs.next()){
                 String name = rs.getString("type");
-
+                
                 if (name.equals("administration")) {
-
-                    JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.INFORMATION_MESSAGE);
-                    MenuUI admin = new MenuUI();
-                    admin.setVisible(true);
+                			
+                            JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.INFORMATION_MESSAGE);
+                            MenuUI admin = new MenuUI();
+                            admin.setVisible(true);
+                		
+                
                 }
                 else if (name.equals("MANAGER")){
                     JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.INFORMATION_MESSAGE);
@@ -57,10 +59,10 @@ public class CredantialsDAL {
             }
         }
         catch (Exception ex){
-            JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Closing the Permission", "Closing the Permission", JOptionPane.ERROR_MESSAGE);
         }
 
-        return null;
+
     }
   
 }

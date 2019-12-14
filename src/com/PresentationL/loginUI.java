@@ -72,15 +72,21 @@ public class loginUI extends javax.swing.JFrame {
                 Optional<String> username = Optional.ofNullable(txtusername.getText().trim());
                 Optional<String> pword = Optional.of(new String(txtpassword.getPassword()).trim());
 
-				CredentialVal obj = CredentialBAL.passwordVal(username,pword);
-
-                if (obj != null) {
-                    CredantialsDAL cdal = new CredantialsDAL();
-                    cdal.getAuthentication(username, pword);
+				//CredentialVal obj = CredentialBAL.passwordVal(username,pword);
+                
+                try {
+                	  CredantialsDAL cdal = new CredantialsDAL();
+                      cdal.getAuthentication(username, pword);
+                      
+				} catch (Exception e2) {
+					JOptionPane.showMessageDialog(null, e2);
+					JOptionPane.showMessageDialog(null, "Please check again", "Error", JOptionPane.ERROR_MESSAGE);
 				}
-                else {
-                    JOptionPane.showMessageDialog(null, "Please check again", "Error", JOptionPane.ERROR_MESSAGE);
-                }
+                  
+                    
+				
+
+
             }
         });
 
