@@ -2,6 +2,7 @@ package com.DataAL;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
@@ -13,6 +14,8 @@ public class NewUserDAL implements DataAccess{
 	
 	private static final NewUserBAL NewUserBAL = null;
 	Connection conn;
+	PreparedStatement ps;
+	ResultSet rs;
 	
 	public NewUserDAL(){
 		 try
@@ -33,7 +36,7 @@ public class NewUserDAL implements DataAccess{
 
 	        String insert="insert into login_tabl(username,password,type) values(?,?,?)";
 	        try{
-	            PreparedStatement ps=conn.prepareStatement(insert);
+	            ps=conn.prepareStatement(insert);
 	            ps.setString(1, lg.getUsername());
 	            ps.setString(2, lg.getPassword());           
 	            ps.setString(3, lg.getUserType());            
@@ -60,7 +63,9 @@ public class NewUserDAL implements DataAccess{
 
 	@Override
 	public ArrayList<Object> getAll() {
-		// TODO Auto-generated method stub
+	
+		 
+		
 		return null;
 	}
 

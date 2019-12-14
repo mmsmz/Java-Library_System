@@ -72,7 +72,7 @@ public class loginUI extends javax.swing.JFrame {
                 Optional<String> username = Optional.ofNullable(txtusername.getText().trim());
                 Optional<String> pword = Optional.of(new String(txtpassword.getPassword()).trim());
 
-				//CredentialVal obj = CredentialBAL.passwordVal(username,pword);
+
                 
                 try {
                 	  CredantialsDAL cdal = new CredantialsDAL();

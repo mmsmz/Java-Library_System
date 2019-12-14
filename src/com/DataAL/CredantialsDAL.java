@@ -41,25 +41,24 @@ public class CredantialsDAL {
                 String name = rs.getString("type");
                 
                 if (name.equals("administration")) {
-                			
                             JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.INFORMATION_MESSAGE);
-                            MenuUI admin = new MenuUI();
-                            admin.setVisible(true);
-                		
-                
+                            MenuUI menu = new MenuUI();
+                            menu.setVisible(true);
                 }
                 else if (name.equals("MANAGER")){
                     JOptionPane.showMessageDialog(null,"Access Permitted", "Access Permitted", JOptionPane.INFORMATION_MESSAGE);
 
                 }
-                //conn.close();
+                conn.close();
             }
             else {
                 JOptionPane.showMessageDialog(null, "Access Denied");
             }
+            
         }
         catch (Exception ex){
-            JOptionPane.showMessageDialog(null,"Closing the Permission", "Closing the Permission", JOptionPane.ERROR_MESSAGE);
+        	System.out.println(ex);
+          //  JOptionPane.showMessageDialog(null,"Closing the Permission", "Closing the Permission", JOptionPane.ERROR_MESSAGE);
         }
 
 
