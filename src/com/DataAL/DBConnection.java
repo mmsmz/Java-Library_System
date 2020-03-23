@@ -10,20 +10,16 @@ public class DBConnection {
 	  private String password;
 	  
       public Connection getConnection() throws SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
-      // Register the Mysql Jdbc Driver Here
+         // Register the Mysql Jdbc Driver Here
       	Class.forName("com.mysql.jdbc.Driver").newInstance();
-     // 	String URL = "jdbc:mysql://ltmuo4.unaux.com:3306/librarysystem_db";
-	 
+
+      	String URL = "jdbc:mysql://db4free.net:3306/librarysystem_db?autoReconnect=true&useSSL=false";
   	    Connection conn = null;
-  	  	// username="unaux_24917239";
-	   //  password="lfum9wsngnqfp";
+  	    username="un_24917239"; //    username="unaux_24917239";
+	    password="lfum9wsngnqfp";
 	      try {
-
-
-	          //Established Connection Object 
-	    	 // conn = DriverManager.getConnection(“jdbc:mysql://localhost/cdcol”,”root”, “”);
-			  conn = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/librarysystem_db","un_24917239", "lfum9wsngnqfp");
-			  System.out.println("connected");
+	          //Established Connection Object
+			  conn = DriverManager.getConnection(URL,username, password);
 	      } catch (SQLException e) {
 	          throw new RuntimeException("Cannot connect the database!", e);
 	      }
